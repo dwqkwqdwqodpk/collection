@@ -1,0 +1,95 @@
+.header {
+    border-bottom: 1px solid #32323D;
+}
+
+.header__line {
+    border-bottom: 1px solid #32323D;
+}
+
+.header__line-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+}
+.header__lng {
+    display: flex;
+}
+.header__lng a {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase; 
+    margin-right: 10px;
+}
+
+.header__phone {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase; 
+}
+
+header .active {
+    color:#C7A17A;
+}
+
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+}
+.nav__link {
+    font-size: 15px;
+    font-weight: 600px; 
+    text-transform: uppercase;
+    margin-right: 35px;
+    transition: color .2 ease;
+}
+
+.nav__link:hover {
+    color:#C7A17A;
+}
+
+.logo img {
+    height: 54px;
+    width: 58px;
+}
+
+.header__actions {
+    display: flex;
+}
+
+.header__link {
+    margin-right: 30px;
+    position: relative;
+}
+
+.header__link:last-child {
+    margin-right: 0;
+}
+
+.header__link-event {
+    width: 6px;
+    height: 6px;
+    background-color:#C7A17A;
+    display: block;
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    border-radius: 50%;
+}
+
+.header__block {
+    width: 40%;
+}
+ 
+.header__block.right {
+    display: flex;
+    justify-content: flex-end;
+}
+

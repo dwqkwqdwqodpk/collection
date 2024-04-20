@@ -1,0 +1,53 @@
+*,*::before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #020204;
+    font-family: "Jost", sans-serif;
+    color:#fff;
+}
+
+.container {
+    width: 1200px;
+    margin:0 auto ;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+img {
+    display: block;
+}
+
+.btn {
+    min-width: 200px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-radius:10px ;
+    transition: background-color .2s ease;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn-main {
+    background-color: #C7A17A;
+}
+.btn-main:hover {
+    background-color: #eeb479;
+}
+
+.btn-secondary {
+    border: 1px solid #666681;
+}
+.btn-secondary:hover {
+    background-color: #666681;
+}

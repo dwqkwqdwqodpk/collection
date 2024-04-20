@@ -1,0 +1,134 @@
+.checkout {
+    flex: 1;
+    padding-top: 80px;
+}
+.checkout__wrapper {
+    display: flex;
+}
+.checkout__img {
+    height: 96px;
+    display: block;
+    margin-right: 25px;
+}
+.checkout__block {
+    flex: 1;
+    margin-right: 50px;
+}
+.checkout__table {
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #14141D;
+    margin-bottom: 20px;
+}
+.checkout__title {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.checkout__size {
+    font-size: 14px;
+    font-weight: 700;
+    color: #818181;
+}
+
+.select select {
+    background-color: transparent;
+    color: #fff;
+    min-width: 60px;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    height: 25px;
+    outline: 0;
+}
+.select option {
+    color: black;
+}
+
+.checkout__table-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.checkout__actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.checkout__price {
+    font-size: 14px;
+    line-height: 144%;
+    font-weight: 900;
+}
+
+.checkout__remove {
+
+}
+
+.checkout__remove:hover {
+    text-decoration: none;
+}
+
+.checkout__total {
+    width: 380px;
+    position: relative;
+}
+
+.checkout__total::after {
+    content: '';
+    top:-145px;
+    bottom: 0;
+    left: -30px;
+    position: absolute;
+    width: 50vw;
+    height: 90vh;
+    background-color: #14141D;
+    z-index: -1;
+}
+.checkout__total-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.checkout__total-row .title {
+    font-size: 15px;
+    line-height: 144%;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.checkout__total-row .count {
+    font-size: 15px;
+    line-height: 144%;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.checkout__total-row.total .title{
+    font-size: 16px;
+    line-height: 144%;
+    font-weight: 700;
+}
+.checkout__total-row.total .count{
+    font-size: 16px;
+    line-height: 144%;
+    font-weight: 700;
+}
+
+.checkout__total-row.total {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.checkout__page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
