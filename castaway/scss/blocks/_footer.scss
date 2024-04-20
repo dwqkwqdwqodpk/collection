@@ -1,0 +1,31 @@
+.footer {
+
+}
+.footer__grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+}
+.footer__logo {
+
+}
+.footer__nav {
+
+}
+.footer__list {
+    display: grid;
+    gap:10px;
+
+    & a {
+        font-size: 17px;
+        color: #fff;
+        line-height: 27px;
+    }
+}
+
+.footer__info {
+
+}
+.footer__socials {
+    display: flex;
+    gap: 17px;
+}

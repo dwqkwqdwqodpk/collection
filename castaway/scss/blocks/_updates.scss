@@ -1,0 +1,51 @@
+.updates {
+    margin-bottom: 200px;
+}
+
+.updates__wrapper{
+    padding: 60px 60px 75px ;
+    background-color: #000;
+    border-radius: 32px;
+    display: flex;
+}
+.updates__info {
+
+}
+.upd__subtitle {
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--accent);
+}
+.upd__title {
+    font-size: 72px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+    max-width: 431px;
+}
+
+.updates__form {
+    display: grid;
+    padding-left: 70px;
+    gap: 20px;
+}
+
+
+.input {
+    padding: 26px 0 27px 20px;
+    font-size: 24px;
+    line-height: 28.8px;
+    border-radius: 6px;
+    background-color: var(--bg-color);
+
+    &::placeholder {
+        color: rgb(255, 255, 255, 0.7);
+    }
+}
+
+.btn-submit {
+    height: 48px;
+    padding: 9px 15px 10px 19px;
+    font-size: 15px;
+    line-height: 28.8px;
+    color: rgb(255, 255, 255, 0.7);
+}
