@@ -1,0 +1,102 @@
+.story__pause {
+    display: flex;
+    height: 78px;
+    overflow: hidden;
+    border-right: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+}
+
+.info-text__content-story{
+    right: 8%;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.info-text__content-story2{
+    right: 1%;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.story__main-img {
+    padding: 20px;
+    border-bottom: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+}
+
+.story__about {
+    display: flex;
+    border-right: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+
+    @include mediaLow {
+        display: grid;
+        gap: 30px;
+    }
+
+    & img {
+        @include mediaLow {
+            width: 100vw;
+        }
+
+    }
+}
+.story-item{
+    width: 50%;
+
+    @include mediaLow {
+        width: unset;
+    }
+}
+.story__souce {
+    border-right: 1px solid var(--border-color);
+}
+.story__title{
+    font-size: 58px;
+    line-height: 64px;
+    padding: 53px 54px 55px 54px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.story__info {
+    background-image: url(/img/story/star.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    @include mediaTablet {
+        background-size: unset;        
+        background-position: bottom;
+    }
+
+}
+
+
+.story__info-text {
+    text-align: center;
+    padding: 150px 134px ;
+    font-size: 16px;
+    line-height: 24px;
+
+    @include mediaTablet {
+        padding: 140px 91px;
+    }
+    @include mediaLow { 
+        padding: 10% 30%;
+    }
+}
+
+.story__text-item1 {
+    margin-bottom: 22px;
+}
+.story__text-item2 {
+    margin-bottom: 26px;
+}
+.story__text-item3 {
+    margin-bottom: 26px;
+}
+.story__text-item4 {
+    margin-bottom: 28px;
+}

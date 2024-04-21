@@ -1,0 +1,10 @@
+@mixin mediaTablet {
+    @media (max-width:1370px) {
+        @content;
+    }
+}
+@mixin mediaLow {
+    @media (max-width:1210px) {
+        @content;
+    }
+}

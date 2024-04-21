@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'roboto-ujjo';
+    src: url(/fonts/Roboto-Regular.ttf);
+}
+
+body, html {
+    font-family: 'roboto-ujjo';
+    margin-top: 1px;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 15px;
+    margin: 0 auto  ;
+}
+.purple {
+    background-color: var(--purple-circle)!important;
+}
+
+.view {
+    height: 100vh;
+}
