@@ -1,0 +1,45 @@
+.cta {
+    padding: 180px 0;
+    background:
+    linear-gradient(
+        180deg,
+        rgba(36, 43, 51, 1) 10.41666641831398%,
+        rgba(36, 43, 51, 0) 50.52083134651184%,
+        rgba(36, 43, 51, 1) 90.10416865348816%),
+    linear-gradient(to left, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.9)), url('/img/cta/background.jpg'),
+    linear-gradient(to left, #c4c4c4, #c4c4c4);
+    background-repeat: no-repeat;
+    background-position:center;
+
+    @include mediaTablet {
+        padding: 60px 0;
+    }
+}
+.cta__wrapper {
+    flex-direction: row;
+    display: flex;
+    gap: 30px;
+    @include mediaTablet {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+.cta__text {
+    width: 50%;
+    display: flex;
+    font-family: "Raleway";
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    @include mediaTablet {
+        font-size: 13px;
+        width: auto;
+    }
+}
+
+
+
+.cta__title .title-2 {
+    margin-bottom: 17px;
+}

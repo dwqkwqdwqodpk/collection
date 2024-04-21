@@ -1,0 +1,71 @@
+body {
+    font-family: 'Raleway', sans-serif; /*семья*/
+    font-weight:400;
+    background-color: $dark;
+    color: $white;
+    font-size: 16px;
+
+    @media (max-width:330px) {
+        overflow-x: hidden;
+    }
+}
+
+a {
+    color: #fff;
+    
+    &:hover {
+        color : $accent;
+        transition: color 0.2s ease-in;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1140px;
+
+    &--sm {
+        max-width: 840px;
+    }
+}
+
+.text-right {
+    text-align: right;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.none {
+    display: none !important;
+}
+
+.title-2 {
+    font-size: 36px;
+    font-family: 'PlayFairDisplay';
+    color: $accent;
+    @include mediaTablet {
+        font-size: 28px;
+    }
+}
+
+#link-bold {
+    color: $accent;
+    font-weight: 700;
+}
+
+.no-scroll {
+    overflow-y: hidden;
+}

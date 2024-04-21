@@ -1,0 +1,52 @@
+.form {
+
+}
+.cta__form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px 30px;
+
+    @include mediaTablet {
+        grid-template-columns: 1fr;
+    }
+}
+.form__input {
+    height: 50px;
+    background-color: rgb(255, 255, 255, 0.2);
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Raleway';
+    &::placeholder {
+        color: #BEBEBE;
+    }
+    &:focus {
+        background-color: rgb(255, 255, 255, 0.25);
+        transition: background-color 0.2 ease-in;
+    }
+}
+.form__privacy {
+    color: #e7e7e7;
+    font-family: "Raleway";
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: center;
+
+    @include mediaTablet {
+        grid-row: 4/5;
+    }
+}
+.form__btn {
+    font-size: 16px;
+    background-color: $accent ;
+    height: 50px;
+    text-align: center;
+    padding: 12px;
+
+    &:hover {
+        background-color: #F2D264;
+        transition: color 0.2 ease-in;
+    }
+}
+
