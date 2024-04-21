@@ -1,0 +1,42 @@
+.jacob {
+    margin-bottom: 200px;
+}
+.jacob__content {
+    display: flex;
+    align-items: center;
+}
+
+.jacob__padding {
+    padding: 140px 60px 140px 0;
+    display: inline;
+}
+
+.jacob__arrow {
+    display: inline-flex;
+    padding: 34px  24px 40px 17px;
+    border-radius: 50%;
+    background-color: var(--accent);
+    margin-bottom: 20px;
+}
+
+.jacob__subtitle {
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--accent);
+}
+.jacob__title {
+    font-size: 65px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+    margin-bottom: 28px;
+}
+.jacob__text {
+    display: grid;
+    gap: 33px;
+    max-width: 556px;
+}
+.jacob__item {
+    font-size: 22px;
+    line-height: 33px;
+    opacity: 0.7;
+}

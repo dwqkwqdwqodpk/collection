@@ -1,0 +1,83 @@
+.episodes__header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.ep__title {
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: 2.88px;
+    margin-bottom: 26px;
+}
+
+.btn-ep {
+    font-size: 17px;
+    line-height: 27px;
+}
+.episodes__card {
+    margin-bottom: 60px;
+
+    &:last-child {
+        margin-bottom: 228px;
+    }
+}
+.card__content {
+    padding: 40px;
+    background-color: var(--bg-card);
+    border-radius: 32px;
+    display: flex;
+    gap: 53px;
+}
+.card__info {
+    max-width: 757px;
+}
+.card__wrap {
+    padding-top: 10px;
+}
+
+.card__tag {
+    display: inline-flex;
+    padding: 0 16px;
+    font-size: 18px;
+    line-height: 27px;
+    background-color: var(--bg-color);
+    border-radius: 6px;
+    margin-bottom: 50px;
+}
+
+.card__subtitle {
+    font-size: 17px;
+    line-height: 27px;
+    color: var(--accent);
+    margin-bottom: 18px;
+}
+
+.card__title {
+    font-size: 64px;
+    line-height: 70px;
+    margin-bottom: 28px;
+    max-width: 701px;
+    letter-spacing: 2.56px;
+}
+
+.card__text {
+    font-size: 22px;
+    line-height: 33px;
+    opacity: 0.7;
+    margin-bottom: 15px;
+}
+.card__btn {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.card__title-2 {
+    max-width: 676px;
+}
+
+.card__title-3 {
+    font-size: 57px;
+}
