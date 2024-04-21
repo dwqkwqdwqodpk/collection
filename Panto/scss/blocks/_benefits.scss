@@ -1,0 +1,21 @@
+.benefits {
+    padding: 120px 0;
+}
+.benefits__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+    @include mediaTablet {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width:500px) {
+        grid-template-columns: 1fr;
+    }
+}
+.betefits__title {
+    font-family: 'gilroy-bold';
+    font-size: 42px;
+    max-width: 260px;
+}
