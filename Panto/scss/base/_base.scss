@@ -1,0 +1,48 @@
+html, body {
+    color: var(--text-color);
+    font-family: 'gilroy-medium';
+}
+
+.container {
+    max-width: 1310px;
+    padding: 0 80px;
+    margin: 0 auto;
+
+    &--footer {
+        width: 1094px;
+    }
+
+    @include mediaTablet {
+        padding: 0 40px;
+    }
+
+    @media (max-width:400px) {
+        padding: 0 15px;
+    }
+}
+
+.none {
+    display: none !important;
+}
+
+body {
+    // padding-bottom: 50vh;
+}
+
+.read-more {
+    font-family: 'gilroy-medium';
+    font-size: 14px;
+    color: var(--accent);
+    line-height: 1.85;
+    display: inline-flex;
+    gap: 13px;
+    align-items: center;
+    &::after {
+        content: url(/img/icons/arrow-right.svg);
+        height: 24px;
+    }
+
+    &--large {
+        font-size: 18px;
+    }
+}

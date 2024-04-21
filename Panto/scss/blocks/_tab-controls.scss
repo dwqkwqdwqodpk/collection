@@ -1,0 +1,31 @@
+.tab-controls {
+    display: inline-flex;
+    padding: 6px;
+    align-items: center;
+    background-color: #eee;
+    border-radius: 44px;
+    gap: 6px;
+}
+.tab-controls__btn {
+    height: 45px;
+    padding: 7px 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 32px;
+    color: rgb(30, 30, 30, 0.8);
+    font-family: 'gilroy-medium';
+    font-size: 18px;
+    line-height: 1.85;
+    transition: background-color 0.1s ease-in;
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.4);
+    }
+
+    &--active {
+        background-color: #fff;
+        &:hover {
+            background-color: #fff;
+        }
+    }
+}
